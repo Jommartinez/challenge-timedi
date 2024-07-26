@@ -4,7 +4,7 @@ MVP frontend para la gestión de dispensadores de cerveza.
 
 # Estructura y stack tecnológico
 
-El proyecto cuenta con dos secciones (un área privada y una zona pública). En el área privada encontramos 3 páginas. Para el desarrollo del proyecto he utilizado NextJS ya que con su nuevo sistema de gestión de rutas es mucho más ágil que tener que estar creando nuestro propio router.
+El proyecto cuenta con dos secciones (un área privada y una zona pública). En el área privada encontramos 3 páginas. Para el desarrollo del proyecto he utilizado NextJS ya que con su nuevo sistema de gestión de rutas es mucho más ágil que tener que estar creando nuestro propio router. Además, dado que toda la información está getionada por la API he suprimido el uso de stado local. En caso de necesitarlo utilizaría Zustand ya que es una librería mucho más ágil que Redux para el estado.
 
 ## Zona privada
 
